@@ -17,7 +17,6 @@ public class Util {
      * 
      * @param arr  The array to be shuffled.
      * @param seed The seed for the random number generator.
-     * 
      * @return The shuffled array.
      */
     public static int[] shuffle(int[] arr, Long seed) {
@@ -45,6 +44,7 @@ public class Util {
      * 
      * @param n    The size of the array.
      * @param seed The seed for the random number generator.
+     * @return The generated random array.
      */
     public static int[] generateRandomArray(int n, Long seed) {
         // Create a new integer array of size n
@@ -59,6 +59,7 @@ public class Util {
      * Check if the array arr is sorted in ascending order.
      * 
      * @param arr The array to be checked.
+     * @return true if the array is sorted in ascending order, false otherwise.
      */
     public static boolean isSorted(int[] arr) {
         return true;
