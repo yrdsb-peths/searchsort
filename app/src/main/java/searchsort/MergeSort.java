@@ -10,9 +10,16 @@ public class MergeSort extends Sort {
     }
 
     /*
-     * Merge the two sorted arrays left and right into the array arr.
+     * Mergesort recursive call
      */
-    private void merge(int[] arr, int[] left, int[] right) {
+    private void mergesort(int[] arr, int[] aux, int[] lo, int[] hi) {
+
+    }
+
+    /*
+     * Merge two sorted subarrays into one sorted array
+     */
+    private void merge(int[] arr, int[] aux, int[] lo, int[] mid, int[] hi) {
 
     }
 }
