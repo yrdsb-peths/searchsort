@@ -8,6 +8,9 @@ package searchsort;
 public class Median {
     /**
      * Find the median of the array arr using QuickSort algorithm.
+     * 
+     * @param arr The array to be sorted.
+     * @return The median of the array arr.
      */
     public double findQuick(int[] arr) {
         return 0;
@@ -15,6 +18,9 @@ public class Median {
 
     /**
      * Find the median of the array arr using MergeSort algorithm.
+     * 
+     * @param arr The array to be sorted.
+     * @return The median of the array arr.
      */
     public double findMerge(int[] arr) {
         return 0;
@@ -22,6 +28,9 @@ public class Median {
 
     /**
      * Find the median of the array arr using InsertionSort algorithm.
+     * 
+     * @param arr The array to be sorted.
+     * @return The median of the array arr.
      */
     public double findInsertion(int[] arr) {
         return 0;

@@ -31,6 +31,10 @@ public class Util {
 
     /**
      * Exchange the elements at indices i and j in the array arr.
+     * 
+     * @param arr The array in which elements are to be exchanged.
+     * @param i   The index of one of the elements.
+     * @param j   The index of the other element.
      */
     public static void exch(int[] arr, int i, int j) {
 
@@ -38,6 +42,9 @@ public class Util {
 
     /**
      * Generate a random array of size n where each element is between 0 and n-1.
+     * 
+     * @param n    The size of the array.
+     * @param seed The seed for the random number generator.
      */
     public static int[] generateRandomArray(int n, Long seed) {
         // Create a new integer array of size n
@@ -50,6 +57,8 @@ public class Util {
 
     /**
      * Check if the array arr is sorted in ascending order.
+     * 
+     * @param arr The array to be checked.
      */
     public static boolean isSorted(int[] arr) {
         return true;
